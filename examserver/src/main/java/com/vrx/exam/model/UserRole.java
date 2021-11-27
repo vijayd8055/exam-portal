@@ -14,7 +14,7 @@ public class UserRole {
     private User user;
 
     //role
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     private Role role;
 
     public UserRole() {
